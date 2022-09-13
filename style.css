@@ -68,3 +68,25 @@ body{
     transform: translate(-50%, -50%);
     left: 30%;
 }
+
+.png1-2{
+    margin: 50px;
+}
+.png1-2 h1{
+    position: absolute;
+    font-size: 6rem !important;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 900px;
+}
+.png2-2{
+    margin: 10px;
+    margin-left: 1100px;
+}
+.png2-2 h1{
+    position: absolute;
+    font-size: 4rem !important;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    left: 30%;
+}
