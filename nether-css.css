@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root{
+    --rounded: 6px;
+    --blur: 25px;
+    --border-width: 2px;
+    /* Colors */
+    --border-color: #111111;
+    --primary: #3694ff;
+    --danger: #cd2828;
+    --success: #25ab16;
+    --link: #6c6c6c;
+    --secondary: #6c6c6c;
+    --white: #fff;
+    --black: #000;
+    --purple-dark: #190f35;
+    --text-box-outilne: rgb(0, 0, 0);
+    --primary-outline: rgba(160, 206, 255, 0.5);
+    --danger-outline: rgba(255, 170, 170, 0.5);
+    --success-outline: rgba(202, 255, 198, 0.5);
+    --link-outline: rgba(137, 137, 137, 0.5);
+    --secondary-outline: rgba(137, 137, 137, 0.5);
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+.absolute{
+    position: absolute;
+}
+.relative{
+    position: relative;
+}
+.center{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-primary {
+    background-color: var(--primary);
+    height: fit-content;
+    width: 100px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+.btn-danger{
+    background-color: var(--danger);
+    font-family: 'Open Sans', sans-serif;
+    height: fit-content;
+    width: 100px;
+    color: #fff;
+}
+.btn-success {
+    background-color: var(--success);
+    font-family: 'Open Sans', sans-serif;
+    height: fit-content;
+    width: 100px;
+    color: #fff;
+}
+.btn-link {
+    background-color: var(--link);
+    font-family: 'Open Sans', sans-serif;
+    height: fit-content;
+    width: 100px;
+    color: #fff;
+}
+.btn-secondary {
+     background-color: var(--secondary);
+     font-family: 'Open Sans', sans-serif;
+     height: fit-content;
+     width: 100px;
+     color: #fff;
+}
+.btn-primary-outline:focus {
+    border: 5px solid var(--primary-outline);
+}
+.btn-danger-outline:focus{
+    border: 5px solid var(--danger-outline);
+}
+.btn-success-outline:focus {
+    border: 5px solid var(--success-outline);
+}
+.btn-link-outline:focus {
+    border: 5px solid var(--link-outline);
+}
+.btn-secondary-outline:focus {
+    border: 5px solid var(--secondary-outline);
+}
+.outline{
+    border: 5px solid var(--outline);
+}
+.no-border{
+    border: none;
+}
+.border{
+    border: var(--border-width) solid var(--border-color);
+}
+.rounded{
+    border-radius: var(--rounded);
+}
+.blurry{
+    backdrop-filter: blur(var(--blur));
+    background-color: #ffffff8b;
+}
+.primary {
+    background-color: var(--primary);
+    font-family: 'Open Sans', sans-serif;
+}
+.danger{
+    background-color: var(--danger);
+    font-family: 'Open Sans', sans-serif;
+}
+.success {
+    background-color: var(--success);
+    font-family: 'Open Sans', sans-serif;
+}
+.link {
+    background-color: var(--link);
+    font-family: 'Open Sans', sans-serif;
+}
+.secondary {
+     background-color: var(--secondary);
+     font-family: 'Open Sans', sans-serif;
+}
+.text-box{
+    background-color: var(--white);
+    height: fit-content;
+    width: 100px;
+    border: 0px solid var(--border-color);
+    transition: border-width 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    font-family: 'Open Sans', sans-serif;
+}
+.text-box-outline:focus{
+    border: 5px solid var(--border-color);
+    transition: border-width 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.text-box:focus{
+    outline: none;
+}

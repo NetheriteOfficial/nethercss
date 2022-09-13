@@ -1,0 +1,70 @@
+body{
+    background-color: #190f35;
+    margin: 0px !important;
+}
+::-webkit-scrollbar{
+    background-color: var(--purple-dark);
+    width: 5px !important;
+}
+::-webkit-scrollbar-thumb{
+    background-color: blueviolet;
+    border-radius: 25px;
+}
+.logo{
+    position: absolute;
+    text-decoration: none;
+    color: var(--white);
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.nav-btn-1{
+    position: absolute;
+    text-decoration: none;
+    color: var(--white);
+    top: 6%;
+    left: 60%;
+    transform: translate(-50%);
+}
+.nav-btn-2{
+    position: absolute;
+    text-decoration: none;
+    color: var(--white);
+    top: 6%;
+    left: 40%;
+    transform: translate(-50%);
+}
+.download{
+    background-color: var(--success);
+    left: 50%;
+    top: 70%;
+    height: 50px;
+    width: 200px;
+    transform: translate(-50%, -50%);
+}
+.download:hover{
+    cursor: pointer;
+    
+}
+.png1{
+    margin: 50px;
+}
+.png1 h1{
+    position: absolute;
+    font-size: 6rem !important;
+    top: 90%;
+    transform: translateY(-50%);
+    margin-left: 900px;
+}
+.png2{
+    margin: 10px;
+    margin-left: 1100px;
+}
+.png2 h1{
+    position: absolute;
+    font-size: 4rem !important;
+    top: 140%;
+    transform: translate(-50%, -50%);
+    left: 30%;
+}
